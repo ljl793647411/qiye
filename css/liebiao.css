@@ -1,0 +1,267 @@
+/* 
+* @Author: admin
+* @Date:   2017-09-12 10:53:17
+* @Last Modified by:   admin
+* @Last Modified time: 2017-09-14 09:57:31
+*/ 
+.iconfont {
+
+    font-family:"iconfont" !important;
+
+    font-size:16px;
+
+    font-style:normal;
+
+    -webkit-font-smoothing: antialiased;
+
+    -webkit-text-stroke-width: 0.2px;
+
+    -moz-osx-font-smoothing: grayscale;
+
+}
+body{
+	background-color: #f5f5f5;
+}
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 112px;
+	padding: 41px 0 19px;
+	background-color: #fff;
+
+}
+.neikuan{
+	width: 1024px;
+	height: 49px;
+	margin: 0 auto;
+}
+.yancaotu{
+	width: 173px;
+	height: 49px;
+	background-image: url('../img/1.png');
+	float: left;
+}
+.yancaotu1{
+	width: 169px;
+	height: 49px;
+	background-image: url('../img/2.png');
+	float: left;
+}
+.header-zi{
+	float: right;
+}
+.header-zi .zi{
+	font-size: 16px;
+	color: #999;
+	font-family: "苹方";
+	line-height: 49px;
+	padding: 0 7px 0;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner-nei{
+	width: 1263px;
+	height: 229px;
+	margin: 0 auto;
+	background-image: url('../img/10.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+}
+/* banner结束 */
+/* 内容开始 */
+section{
+	width: 1263px;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+}
+main{
+	width: 1000px;
+	margin:0 auto;
+	position: relative;
+	top: -33px;
+	z-index: 999;
+	overflow: hidden;
+	background-color: #fff;
+	padding: 33px 0 50px 30px;
+}
+.neikuan1{
+	width:1263px;
+	background-color:#fff;
+	margin: 0 auto;
+	padding: 229px 30px 0;
+	overflow: hidden;
+	position: relative;
+
+}
+.left{
+	width: 249px;
+	float: left;
+	
+}
+.sousuo{
+	width: 249px;
+	height: 30px;
+	background-color: #f2f2f2;
+	float: left;
+}
+.sousuo span{
+	font-size: 12px;
+	color: #999;
+	font-family: "苹方";
+	line-height: 30px;
+	float: left;
+}
+
+.sousuo input{
+	width:160px;
+	height: 20px;
+	border: 1px #999 solid;
+	float: left;
+	margin-top: 5px;
+
+}
+.sousuo .go{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #e0e0e0;
+	font-size: 14px;
+	color: #000;
+	font-family: "苹方";
+	line-height:20px;
+	text-align: center;
+	margin-top: 5px;
+}
+.lie{
+	border: 1px #e4e4e4 solid;
+	margin-top: 30px; 
+	float: left;
+}
+.lie-1{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px #e4e4e4 solid;
+}
+.lie-1-1{
+	width: 128px;
+	height: 28px;
+}
+.lie-2{
+	padding: 15px 0 15px 12px;
+}
+.lie-2 a{
+	font-size: 12px;
+	color: #999;
+	font-family: "苹方";
+	line-height: 26px;
+}
+.right{
+	float: left;
+	padding-bottom: 30px;
+}
+.right-top{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.right-top img{
+	width: 81px;
+	height: 39px;
+}
+.right-lie1{
+	font-size: 12px;
+	color: #999;
+	font-family: "苹方";
+	line-height: 20px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.right-lie1 a{
+	font-size: 14px;
+	color: #999;
+	font-family: "苹方";
+	line-height: 26px;
+}
+.right-lie1 span{
+	font-size: 14px;
+	color: #999;
+	font-family: "苹方";
+	line-height: 26px;
+	float: right;
+}
+.right-ye{
+	width: 480px;
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.right-ye .ye-1{
+	font-size: 14px;
+	color: #000;
+	font-family: "苹方";
+	line-height: 22px;
+}
+.ye-2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.ye-4{
+	margin-left: 7px;
+	width: 22px;
+	height: 22px;
+	font-size: 14px;
+	color: #000;
+	font-family: "苹方";
+	line-height: 22px;
+}
+.ye-3{
+	background-color: red;
+}
+/* 内容结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 77px;
+	background-color: #ccc;
+}
+.footer-nei{
+	width: 1080px;
+	height: 100%;
+	margin: 0 auto;
+}
+footer span{
+	font-family: "苹方";
+	font-size: 12px;
+	color: #000;
+	line-height: 77px;
+}
+.footer-right{
+	float: right;
+	margin-top: 26px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-tu1{
+	width: 24px;
+	height: 24px;
+	background-image: url('../img/4.png');
+	background-size: cover;
+
+}
+.footer-tu2{
+	width: 24px;
+	height: 24px;
+	background-image: url('../img/5.png');
+	background-size: cover;
+}
+.footer-tu3{
+	width: 64px;
+	height: 24px;
+	background-image: url('../img/6.png');
+	background-size: cover;
+}
+/* 底部结束 */

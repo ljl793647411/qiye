@@ -1,0 +1,275 @@
+/* 
+* @Author: admin
+* @Date:   2017-09-12 10:53:17
+* @Last Modified by:   admin
+* @Last Modified time: 2017-09-15 20:41:30
+*/ 
+.iconfont {
+
+    font-family:"iconfont" !important;
+
+    font-size:16px;
+
+    font-style:normal;
+
+    -webkit-font-smoothing: antialiased;
+
+    -webkit-text-stroke-width: 0.2px;
+
+    -moz-osx-font-smoothing: grayscale;
+
+}
+body{
+	background-color: #f5f5f5;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 112px;
+	padding: 41px 0 19px;
+	background-color: #fff;
+}
+.neikuan{
+	width: 1024px;
+	height: 49px;
+	margin: 0 auto;
+}
+.yancaotu{
+	width: 173px;
+	height: 49px;
+	background-image: url('../img/1.png');
+	float: left;
+}
+.yancaotu1{
+	width: 169px;
+	height: 49px;
+	background-image: url('../img/2.png');
+	float: left;
+}
+.header-zi{
+	float: right;
+}
+.header-zi .zi{
+	font-size: 16px;
+	color: #999;
+	font-family: "苹方";
+	line-height: 49px;
+	padding: 0 7px 0;
+}
+/* 头部结束 */
+/* banner开始 */
+
+/* banner结束 */
+/* 内容开始 */
+section{
+	width: 1263px;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+}
+.banner-nei{
+	width: 1263px;
+	height: 229px;
+	margin: 0 auto;
+	background-image: url('../img/10.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.neikuan1{
+	width:1000px;
+	background-color:#fff;
+	margin: 0 auto;
+	padding: 33px 30px 0;
+	overflow: hidden;
+	position: relative;
+	top: -33px;
+}
+.top{
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.top1{
+	float: left;
+	width: 451px;
+	height: 183px;
+	border: 1px #e4e4e4 solid;
+}
+.top1-1{
+	width: 100%;
+	height: 28px;
+}
+.top1-1-1{
+	width: 110px;
+}
+.top1 p{
+	padding-left: 22px;
+    padding-right: 22px;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 26px;
+    height: 88px;
+}
+.top1-2{
+	width: 120px;
+	height: 36px;
+	padding: 0 20px;
+	margin-top: 32px;
+	float: right;
+	border: 1px #e4e4e4 solid;
+	border-bottom: 0;
+	border-right: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.top1-2 img{
+	width: 17px;
+	height: 9px;
+	margin-top: 12px;
+}
+.top1-2 span{
+	font-family: "苹方";
+	font-size: 16px;
+	color: #000;
+	line-height: 36px;
+}
+.top2-2{
+	width: 100%;
+	height: 65px;
+	border-top: 1px #e4e4e4 solid;
+}
+.top2-2tu{
+	width: 120px;
+	height: 28px;
+	margin-top: 18px;
+	float: left;
+}
+.top2-2 span{
+	font-size: 16px;
+	color: #000;
+	font-family: "苹方";
+	line-height: 65px;
+	float: left;
+	margin-left: 20px;
+}
+.top2-3{
+	width: 100%;
+	height: 90px;
+	border-top: 1px #e4e4e4 solid;
+}
+.top2-2-2{
+	margin-top: 10px;
+	padding: 0 90px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.top2-2-1{
+	font-size: 14px;
+	color: #000;
+	font-family: "苹方";
+	
+}
+.bottom{
+	margin-top: 50px;
+}
+.top4-1{
+	width: 100%;
+	height: 28px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.top4-1tu{
+	width: 120px;
+	height: 28px;
+}
+.top4-2{
+	width: 120px;
+	height: 26px;
+	padding: 0 20px;
+	border: 1px #e4e4e4 solid;
+	border-top: 0;
+	border-right: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.top4-zhong{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.top4-2 img{
+	width: 17px;
+	height: 9px;
+	margin-top: 12px;
+}
+.top4-zhongzi{
+	padding: 8px 18px 0;
+}
+.top4-2 span{
+	font-family: "苹方";
+	font-size: 16px;
+	color: #000;
+	line-height: 28px;
+}
+.top4-zhongzi a{
+	display: block;
+	font-size: 14px;
+	color: #000;
+	font-family: "苹方";
+	line-height: 28px;
+}
+.top4-2{
+	margin-top: 0;
+	border-top: 1px #e4e4e4 solid;
+	border-bottom: 0;
+	height: 32px;
+}
+/* 内容结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 77px;
+	background-color: #ccc;
+}
+.footer-nei{
+	width: 1080px;
+	height: 100%;
+	margin: 0 auto;
+}
+footer span{
+	font-family: "苹方";
+	font-size: 12px;
+	color: #000;
+	line-height: 77px;
+}
+.footer-right{
+	float: right;
+	margin-top: 26px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-tu1{
+	width: 24px;
+	height: 24px;
+	background-image: url('../img/4.png');
+	background-size: cover;
+
+}
+.footer-tu2{
+	width: 24px;
+	height: 24px;
+	background-image: url('../img/5.png');
+	background-size: cover;
+}
+.footer-tu3{
+	width: 64px;
+	height: 24px;
+	background-image: url('../img/6.png');
+	background-size: cover;
+}
+/* 底部结束 */
