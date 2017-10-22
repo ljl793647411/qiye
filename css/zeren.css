@@ -1,0 +1,262 @@
+/* 
+* @Author: admin
+* @Date:   2017-09-12 10:53:17
+* @Last Modified by:   admin
+* @Last Modified time: 2017-09-15 15:40:24
+*/
+.iconfont {
+
+    font-family: "iconfont" !important;
+
+    font-size: 16px;
+
+    font-style: normal;
+
+    -webkit-font-smoothing: antialiased;
+
+    -webkit-text-stroke-width: 0.2px;
+
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* 头部开始 */
+header {
+    width: 100%;
+    height: 112px;
+    padding: 41px 0 19px;
+    background-color: #fff;
+}
+
+.neikuan {
+    width: 1024px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.yancaotu {
+    width: 173px;
+    height: 49px;
+    background-image: url('../img/1.png');
+    float: left;
+}
+
+.yancaotu1 {
+    width: 169px;
+    height: 49px;
+    background-image: url('../img/2.png');
+    float: left;
+}
+
+.header-zi {
+    float: right;
+}
+
+.header-zi .zi {
+    font-size: 16px;
+    color: #999;
+    font-family: "苹方";
+    line-height: 49px;
+    padding: 0 7px 0;
+}
+
+/* 头部结束 */
+/* banner开始 */
+
+/* banner结束 */
+/* 内容开始 */
+section {
+    width: 1263px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
+
+.banner-nei {
+    width: 1263px;
+    height: 229px;
+    margin: 0 auto;
+    background-image: url('../img/1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.neikuan1 {
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 33px 30px 0;
+    overflow: hidden;
+    position: relative;
+    top: -33px;
+}
+
+.top1 {
+    width: 929px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    width: 450px;
+    height: 201px;
+    border: 1px solid #ccc;
+}
+.tl-top{
+    width: 100%;
+    height: 28px;
+    border-bottom:1px solid #ccc;
+    padding-right: 15px;
+    overflow: hidden;
+
+}
+.tl-top-right{
+    float: right;
+    display: block;
+    font-size: 14px;
+    color: #999;
+    line-height: 28px;
+    font-family: "苹方 中等";
+}
+.tl-bottom ul{
+    padding:15px;
+}
+.tl-bottom li{
+    font-size: 12px;
+    color: #999;
+    line-height: 28px;
+    font-family: "苹方 中等";
+}
+.tl-top .tl-top-right img{
+    width: 17px;
+    height: 9px;
+    float: left;
+    margin-top:9px;
+    margin-right: 8px;
+}
+.tl-top img{
+    width: 120px;
+    height: 28px;
+    float: left;
+}
+.bottom {
+    width: 929px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.top-right{
+    border:none;
+}
+.bt-left {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+.bt-right{
+    border: none;
+
+}
+.tu {
+    width: 216px;
+    height: 194px;
+}
+
+.bt-right-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tu1 {
+    width: 141px;
+    height: 108px;
+}
+
+.bt-right-top {
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.bt-right-top span {
+    line-height: 20px;
+    float: left;
+    font-size: 18px;
+    color: #000;
+    line-height: 36px;
+}
+
+.bt-right-top-zi {
+    display: block;
+    float: right;
+    font-size: 14px;
+    color: #999;
+    font-family: '苹方';
+    line-height: 36px;
+}
+
+.bt-right-top-zi img {
+    width: 17px;
+    height: 9px;
+    float: left;
+    margin-top: 14px;
+    margin-right:7px;
+}
+
+/* 内容结束 */
+/* 底部开始 */
+footer {
+    width: 100%;
+    height: 77px;
+    background-color: #ccc;
+}
+
+.footer-nei {
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer span {
+    font-family: "苹方";
+    font-size: 12px;
+    color: #000;
+    line-height: 77px;
+}
+
+.footer-right {
+    float: right;
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-tu1 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/4.png');
+    background-size: cover;
+
+}
+
+.footer-tu2 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/5.png');
+    background-size: cover;
+}
+
+.footer-tu3 {
+    width: 64px;
+    height: 24px;
+    background-image: url('../img/6.png');
+    background-size: cover;
+}
+
+/* 底部结束 */
