@@ -63,7 +63,9 @@ header {
     line-height: 49px;
     padding: 0 7px 0;
 }
-
+.header-zi .zi:nth-child(9){
+    color:red;
+}
 /* 头部结束 */
 /* banner开始 */
 
